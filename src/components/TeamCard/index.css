@@ -1,0 +1,39 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.team-card {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff33;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .team-card {
+    width: 100%;
+  }
+}
+.team-logo {
+  height: 70px;
+  width: auto;
+  margin: 10px;
+}
+.team-name {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.link {
+  text-decoration: none;
+}
